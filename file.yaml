@@ -8,8 +8,5 @@
       path: "/tmp/prueba.txt"
       state: "touch"
 
-  - name: Borrar el fichero anterior
-    file: 
-      path: "/tmp/prueba.txt"
-      state: "absent"
+
 ...

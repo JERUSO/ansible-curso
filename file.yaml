@@ -1,6 +1,6 @@
 ---
 - name: Trabajar con ficheros
-  hosts: debian
+  hosts: 192.168.27.128
       
   tasks:
   - name: Crear un fichero vacío

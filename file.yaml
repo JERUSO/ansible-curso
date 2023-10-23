@@ -8,7 +8,8 @@
       path: "/tmp/awx-prueba.txt"
       state: "touch"
   - name: mostrando variable
-    debug: {{ var_ejemplo }}
+    debug: 
+      msg: {{ var_ejemplo }}
 
 
 ...

@@ -9,7 +9,7 @@
       state: "touch"
   - name: mostrando variable
     debug: 
-      msg: {{ var_ejemplo }}
+      msg: "{{ var_ejemplo }}"
 
 
 ...
